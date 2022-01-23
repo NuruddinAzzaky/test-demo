@@ -1,0 +1,297 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(66, 70, 83);
+    
+}
+.page1{
+    width: 100vw;
+    height: auto;
+}
+.header{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 2vw;
+    justify-content: center;
+    font-size: 1vw;
+}
+h2{
+    letter-spacing: 2vw;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+}
+.cover{
+    background-image: url("../assets/img/border.png");
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5vw;
+    text-align: center;
+}
+
+.cover .a1{
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+    margin-top: 4vw;
+}
+.cover .a21{
+    font-size: 4vw;
+    margin-top: 3vw;
+    color: white;
+}
+.cover .a22{
+    font-size: 3vw;
+    margin-top: 0.1vw;
+    color: white;
+}
+.cover .a23{
+    font-size: 4vw;
+    margin-top: 0.1vw;
+    color: white;
+}
+.cover .a3{
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+.cover .a4{
+    font-size: 2vw;
+    margin: auto;
+}
+.kosong_page1{
+    height: 10vw;
+}
+.page2{
+    width: 100vw;
+    height: auto;
+}
+.kosong{
+    height: 10vw;
+}
+.pembukaan{
+    width: 100vw;
+    height:auto;
+    display: flex;
+}
+.header_foto_page2{
+    width: 100vw;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+.profil{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.profil p{
+    text-align: center;
+}
+.profil .nama_mempelai_putri{
+    background-color: antiquewhite;
+    border:1vw rgb(49, 61, 71);
+    border-radius: 1vw;
+    overflow: hidden;
+    flex: 1;
+    margin: 2vw;
+    font-size: 2vw;
+    
+}
+.nama_mempelai_putri .content_putri{
+    padding: 1vw;
+}
+
+.nama_mempelai_putri .foto_putri{
+    background-color: teal;
+    height: 20vw;
+}
+.profil .nama_mempelai_putra{
+    background-color: antiquewhite;
+    border:1vw rgb(49, 61, 71);
+    border-radius: 1vw;
+    overflow: hidden;
+    flex: 1;
+    margin: 2vw;
+    font-size: 2vw;
+}
+.nama_mempelai_putra .content_putra{
+    padding: 1vw;
+}
+.nama_mempelai_putra .foto_putra{
+    background-color: teal;
+    height: 20vw;
+}
+.page2 .mempelai{
+    color: rgb(253, 253, 253);
+    font-size: 3vw;
+    letter-spacing: 2vw;
+    text-align: center;
+
+}
+.savethedate{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+}
+.savethedate p{
+    font-size: 3vw;
+    text-align: center;
+    letter-spacing: 2vw;
+    color: rgb(253, 253, 253);
+}
+.savethedate .countdown{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+.countdown div{ 
+    position: relative;   
+    width:20vw;
+    height: 15vw;
+    background-color: rgb(102, 119, 102);
+    margin:0.5vw;
+    padding-top: 1vw;
+    font-size: 5vw;
+    text-align: center;
+    color: ghostwhite;
+}
+.countdown div:before{
+    content: ' ';
+    width: 100% ;
+    height: 7vw;    
+    background-color: rgb(235, 211, 160);
+    position: absolute;
+    left: 0vw;
+    bottom: 0vw;
+    font-size: 5vw;
+    color: gray;
+    
+
+}
+.countdown div#day:before{
+    content: 'Days';
+}
+.countdown div#hours:before{
+    content: 'Hours';
+}
+.countdown div#minutes:before{
+    content: 'Minutes';
+}
+.countdown div#second:before{
+    content: 'Seconds';
+}
+.page3{
+    width: 100vw;
+    height: auto;
+    
+}
+.page3 .header{
+    display: flex;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(135, 153, 111);
+    
+}
+.page3 .maps{
+    display: flex;
+    width: 80vw;
+    height: 40vw;
+    margin: auto;
+}
+.page3 .header .alamat{
+    letter-spacing: 3vw;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+.header .h1{
+    letter-spacing: 0vw;
+}
+.header p{
+    line-height:1px;
+    color: rgb(49, 61, 71);
+}
+.page4{
+    width:100vw;
+    height: auto;
+    margin-top: 5vw;
+    padding: 0px;
+}
+.page4 .header_page4{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    margin: auto;
+    background-color: rgb(192, 145, 104);
+}
+.header_page4 p{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+
+}
+.galleri{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.galleri .foto1{
+    background-color: rgb(58, 83, 156);
+    width: 20vw;
+    height: 20vw;
+    
+
+}
+.galleri2{
+    width:100vw;
+    height:auto;
+}
+.galleri_foto2{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+.foto2{
+    width: 50vw;
+    height: 50vw;
+    background-color: seagreen;
+    margin: flex-start;
+}
+.foto3{
+    width:30vw;
+    height: 25vw;
+    background-color: skyblue;
+    flex-direction: column;
+}
+.foto4{
+    width:30vw;
+    height: 25vw;
+    background-color: rgb(175, 235, 135);
+    flex-direction: column;
+
+}
